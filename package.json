@@ -1,0 +1,25 @@
+{
+  "name": "ging-poc-test",
+  "version": "1.0.0",
+  "description": "for tesing mocha",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test/math.test.ts"
+  },
+  "author": "kwanhathai",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.25",
+    "chai": "3.5.0",
+    "mocha": "5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/runtime": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-dynamic-import-node": "^2.3.3"
+  }
+}
