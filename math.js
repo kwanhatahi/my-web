@@ -2,4 +2,4 @@ function add (x, y) {
   return x + y
 }
 
-module.exports = add; //eiei
+module.exports = add;
